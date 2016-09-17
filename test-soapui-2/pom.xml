@@ -110,9 +110,7 @@
   <outputFolder>${basedir}/target/soapui</outputFolder>
   <junitReport>true</junitReport>                     
   <printReport>true</printReport>
-  <exportAll>true</exportAll>
-  <testSuite>TestSuite1</testSuite>
-  <testCase>TestCase1</testCase>
+  <exportAll>true</exportAll>  
 </configuration>
  <executions>
     <execution>
