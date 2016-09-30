@@ -9,6 +9,10 @@
         <!-- Add project modules -->
     	<module>test-soapui-2</module>
     </modules>
+	<scm>
+		<connection>scm:git:git://github.com/vzwx3q/st-test-soapui-application2.git</connection>
+		<developerConnection>scm:git:git//github.com/vzwx3q/st-test-soapui-application2.git</developerConnection>
+	</scm>
     <distributionManagement>
 		<repository>
 			<id>releases</id>
