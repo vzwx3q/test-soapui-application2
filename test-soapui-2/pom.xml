@@ -133,4 +133,8 @@
 			<url>http://172.31.19.23:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
+	<scm>
+		<connection>scm:git:git://github.com/vzwx3q/st-test-soapui-application2.git</connection>
+		<developerConnection>scm:git:git//github.com/vzwx3q/st-test-soapui-application2.git</developerConnection>
+	</scm>
 </project>
