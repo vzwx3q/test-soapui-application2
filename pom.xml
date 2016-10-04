@@ -9,10 +9,7 @@
         <!-- Add project modules -->
     	<module>test-soapui-2</module>
     </modules>
-	<scm>
-		<connection>scm:git:git://github.com/vzwx3q/st-test-soapui-application2.git</connection>
-		<developerConnection>scm:git:git//github.com/vzwx3q/st-test-soapui-application2.git</developerConnection>
-	</scm>
+	
     <distributionManagement>
 		<repository>
 			<id>releases</id>
@@ -26,18 +23,7 @@
 	    <build>
         <pluginManagement>
             <plugins>
-		    <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.3</version>
-                    <configuration>
-                        <verbose>true</verbose>
-                        <fork>true</fork>
-                        <source>${java.version}</source>
-                        <target>${java.version}</target>
-                    </configuration>
-                </plugin>
-                <plugin>
+	                <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-checkstyle-plugin</artifactId>
                     <version>2.15</version>
