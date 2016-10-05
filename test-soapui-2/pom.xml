@@ -45,7 +45,7 @@
         <composite.partition>default</composite.partition>
         <serverUrl>${soaurl}</serverUrl>
         <user>${username}</user>
-        <password>${password}</password>
+        <password>${webpassword}</password>
         <overwrite>true</overwrite>
         <forceDefault>true</forceDefault>
         <regenerateRulebase>false</regenerateRulebase>
