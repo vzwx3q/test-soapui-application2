@@ -9,7 +9,7 @@
     <properties>
         <soaurl>http://52.41.54.128:7101</soaurl>
         <username>weblogic</username>
-        <password>welcome1</password>
+        <webpassword>welcome1</webpassword>
     </properties>
     <modules>
         <!-- Add project modules -->
