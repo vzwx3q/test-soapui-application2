@@ -43,9 +43,9 @@
         <composite.name>${project.artifactId}</composite.name>
         <composite.revision>${project.version}</composite.revision>
         <composite.partition>default</composite.partition>
-        <serverUrl>${soaurl}</serverUrl>
-        <user>${username}</user>
-        <password>${webpassword}</password>
+        <serverUrl>${parent.soaurl}</serverUrl>
+        <user>${parent.username}</user>
+        <password>${parent.webpassword}</password>
         <overwrite>true</overwrite>
         <forceDefault>true</forceDefault>
         <regenerateRulebase>false</regenerateRulebase>
