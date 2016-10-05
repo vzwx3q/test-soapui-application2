@@ -43,9 +43,9 @@
         <composite.name>${project.artifactId}</composite.name>
         <composite.revision>${project.version}</composite.revision>
         <composite.partition>default</composite.partition>
-        <serverUrl>http://52.41.54.128:7101</serverUrl>
-        <user>weblogic</user>
-        <password>welcome1</password>
+        <serverUrl>$soaurl</serverUrl>
+        <user>$username</user>
+        <password>$password</password>
         <overwrite>true</overwrite>
         <forceDefault>true</forceDefault>
         <regenerateRulebase>false</regenerateRulebase>
