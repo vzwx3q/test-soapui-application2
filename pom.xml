@@ -6,11 +6,12 @@
     <version>3.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     
-    <properties>
+    <!--<properties>
 	<serverUrl>http://52.41.54.128:7101</serverUrl>
     <user>weblogic</user>
     <password>welcome1</password>        
-    </properties>
+    </properties>-->
+	
     <modules>
         <!-- Add project modules -->
     	<module>test-soapui-2</module>
