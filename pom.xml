@@ -5,13 +5,11 @@
     <artifactId>test-soapui-application2</artifactId>
     <version>3.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <serverUrl>${soaurl}</serverUrl>
-    <user>${username1}</user>
-    <password>${webpassword}</password>
+    
     <properties>
-        <soaurl>http://52.41.54.128:7101</soaurl>
-        <username1>weblogic</username1>
-        <webpassword>welcome1</webpassword>
+	<serverUrl>http://52.41.54.128:7101</serverUrl>
+    <user>weblogic</user>
+    <password>welcome1</password>        
     </properties>
     <modules>
         <!-- Add project modules -->
